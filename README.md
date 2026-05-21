@@ -1,24 +1,32 @@
-# House Price Prediction
+## Installation
 
-This is a supervised learning machine learning project that predicts house prices using Linear Regression.
+```bash
+git clone https://github.com/Divy-78/house-price-prediction.git
+cd house-price-prediction
+pip install -r requirements.txt
+```
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Jupyter Notebook
+## Run Project
 
-## Workflow
-1. Data Cleaning
-2. Feature Encoding
-3. Train-Test Split
-4. Model Training
-5. Prediction
-6. Evaluation
+Open Jupyter Notebook:
 
-## Model Used
-- Linear Regression
+```bash
+jupyter notebook
+```
 
-## Author
-Divy Sharma
+Then open:
+
+```text
+notebook/analysis.ipynb
+```
+
+## Dataset
+
+Dataset contains housing features used for predicting house prices.
+
+## Future Improvements
+
+- Add Streamlit Web App
+- Improve model accuracy
+- Deploy online
+- Add visualizations
